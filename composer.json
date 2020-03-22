@@ -1,0 +1,22 @@
+{
+  "name":"foph/pi-hole-builder-contracts",
+  "description":"contract interfaces and objects for pi hole builder",
+  "type": "project",
+  "license": ["GPL-3.0-only"],
+  "require":{
+    "php": "^7.0",
+    "psr/log": "^1.1",
+    "snalesh/data-object": "^1.0"
+  },
+  "authors":[
+    {
+      "name": "Eric Schreiterer",
+      "role": "Developer"
+    }
+  ],
+  "autoload":{
+    "psr-4": {
+      "FoPH\\Builder\\Contracts\\": "src/"
+    }
+  }
+}
